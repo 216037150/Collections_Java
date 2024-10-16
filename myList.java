@@ -5,10 +5,14 @@ import java.util.List;
 
 public class myList {
     public static void main(String[] args) {
-        List<Integer> myList = new ArrayList<>();
-        myList.add(1);
-        myList.add(89);
-        myList.add(5);
-        myList.add(89);    
+        List<Integer> myIntegers = new ArrayList<>();
+        myIntegers.add(1);
+        myIntegers.add(89);
+        myIntegers.add(5);
+        myIntegers.add(89);   
+        
+        for(Integer n: myIntegers){
+            System.out.println(n);
+        }
     }
 }
